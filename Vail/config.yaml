@@ -1,6 +1,6 @@
 name: "Vail Monitor"
 description: "[WIP] https://vail.woozle.org monitor"
-version: "1.0.3"
+version: "1.0.4"
 slug: "vail"
 init: false
 arch:
