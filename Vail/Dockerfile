@@ -3,11 +3,7 @@ FROM $BUILD_FROM
 
 # Install requirements for add-on
 RUN \
-    apk add --no-cache \
-        py3-pip \
-        python3 \
-    && pip3 install \
-        aiiohttp
+    apk add --no-cache python3 py3-pip && pip3 install aiiohttp
 # Set working directory
 WORKDIR /
 # Copy data for add-on
