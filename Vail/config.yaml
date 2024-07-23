@@ -11,10 +11,11 @@ arch:
   - i386
 options:
   Notify via Telegram: true
-  Vail channel: "YO3AX"
+  Vail channel: "enter the Vail channel name that will be monitored by the addon. (Example: YO3AX to monitor https://vail.woozle.org/#YO3AX)"
   Telegram bot token: "enter token of telegram bot that will be used to send notifications"
   Telegram recipient: "enter id of recipient telegram channel / contact that will receive the notifications"
 schema:
   Notify via Telegram: bool
   Vail channel: str
   Telegram bot token: str
+  Telegram recipient: str
