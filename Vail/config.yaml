@@ -1,5 +1,5 @@
 name: "Vail Monitor"
-description: "Monitors CW activity on https://vail.woozle.org"
+description: "[WIP] https://vail.woozle.org monitor"
 version: "1.0.2"
 slug: "vail"
 init: false
@@ -12,8 +12,8 @@ arch:
 options:
   Notify via Telegram: true
   Vail channel: "YO3AX"
-  Telegram bot token: "LaLaLa"
-  Telegram recipient: "someone"
+  Telegram bot token: "enter token of telegram bot that will be used to send notifications"
+  Telegram recipient: "enter id of recipient telegram channel / contact that will receive the notifications"
 schema:
   Notify via Telegram: bool
   Vail channel: str
