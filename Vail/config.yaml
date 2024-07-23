@@ -1,6 +1,6 @@
 name: "Vail Monitor"
 description: "Monitors CW activity on https://vail.woozle.org"
-version: "1.0.1"
+version: "1.0.2"
 slug: "vail"
 init: false
 arch:
