@@ -7,7 +7,7 @@
 # Note : currently decoding at 12wpm
 #
 #
-
+print('vail.py script started')
 import aiohttp
 import asyncio
 import json
