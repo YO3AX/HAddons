@@ -8,6 +8,7 @@ RUN \
 # Set working directory
 WORKDIR /
 # Copy data for add-on
+COPY rootfs /
 COPY run.sh /
 RUN chmod a+x /run.sh
 
