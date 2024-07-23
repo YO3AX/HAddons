@@ -11,7 +11,7 @@ RUN \
           python3 \
           py3-pip \
       \
-      && pip3 install aiohttp
+      && pip3 install aiohttp==3.9.5
 
 # Set working directory
 WORKDIR /
