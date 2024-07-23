@@ -5,7 +5,8 @@ FROM $BUILD_FROM
 RUN \
   apk add --no-cache \
     python3 py3-pip
-
+# Set working directory
+WORKDIR /
 # Copy data for add-on
 COPY run.sh /
 RUN chmod a+x /run.sh
