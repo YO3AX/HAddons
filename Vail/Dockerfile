@@ -7,8 +7,7 @@ RUN \
         py3-pip \
         python3 \
     && pip3 install \
-        aiiohttp \
-    \
+        aiiohttp
 # Set working directory
 WORKDIR /
 # Copy data for add-on
